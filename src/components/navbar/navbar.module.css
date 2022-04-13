@@ -1,0 +1,22 @@
+.logoWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: right;
+}
+
+.icon {
+  color: #fff;
+}
+
+.wrapper {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: #333;
+}

@@ -1,0 +1,28 @@
+.dialog {
+  background-color: #333 !important;
+}
+
+.body {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.textarea {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 100%!important;
+  min-height: 50%!important;
+  width: 99%!important;
+  border-radius: 20px;
+  background-color: #333;
+  color: #ccc;
+  font-size: 20px;
+  font-weight: 100!important;
+  padding: 20px;
+}
+
+.textarea::placeholder {
+    color: #ccc;
+}

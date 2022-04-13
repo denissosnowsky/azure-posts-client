@@ -1,0 +1,15 @@
+.wrapper {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: #333;
+}
+
+.icon {
+  color: #fff;
+  transition: all .5s;
+}
+
+.icon:hover {
+  color: #ec407a;
+}

@@ -1,0 +1,7 @@
+.list a {
+  text-decoration: none;
+}
+
+.active {
+  color: #ec407a;
+}

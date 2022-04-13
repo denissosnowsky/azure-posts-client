@@ -1,0 +1,40 @@
+.wrapper {
+  height: fit-content;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #ec407a;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.photo {
+  width: fit-content;
+  height: 100%;
+}
+
+.description {
+  flex: 1;
+  margin-left: 30px;
+  display: flex;
+}
+
+.name {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  color: #ec407a;
+}
+
+.buttons {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.articles {
+  cursor: pointer;
+  font-size: 50px !important;
+}

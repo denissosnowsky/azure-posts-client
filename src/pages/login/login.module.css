@@ -1,0 +1,52 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  position: relative;
+  padding: 10px;
+}
+
+.text {
+  padding: 10px;
+  font-size: 30px;
+  transition: all 1s;
+}
+
+.login:hover {
+  transform: scale(1.05);
+}
+
+.login:hover .text {
+  color: #ec407a;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+}
+
+.logoWrapper {
+  width: fit-content;
+  position: absolute;
+  top: 0px;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.footer{
+  width: fit-content;
+  position: absolute;
+  bottom: 10px;
+  transform: translateX(-50%);
+  left: 50%;
+}

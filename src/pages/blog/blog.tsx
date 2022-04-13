@@ -38,20 +38,19 @@ export const Blog: VFC = () => {
     setIsLoading(false)
   }
 
-  const fetchUser = async () => {
-    try {
-      const res = await apiService.get<{ value: UserItem[] }>(
-        `/author/${currentBlogUserId}`,
-      )
-      setBlogUser(res.value[0])
-    } catch (e) {
-      const error = e as Error
-      console.log(e)
-      alert(error.message)
-    }
-  }
-
   useEffect(() => {
+    const fetchUser = async () => {
+      try {
+        const res = await apiService.get<{ value: UserItem[] }>(
+          `/author/${currentBlogUserId}`,
+        )
+        setBlogUser(res.value[0])
+      } catch (e) {
+        const error = e as Error
+        console.log(e)
+        alert(error.message)
+      }
+    }
     fetchUser()
     fetchList(currentBlogUserId)
   }, [currentBlogUserId])
